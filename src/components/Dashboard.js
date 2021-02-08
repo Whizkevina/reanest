@@ -25,7 +25,7 @@ class Dashboard extends Component {
                         <img src={profileImg} alt="profile-img"/>
                     </div>
                     <ul className="sidenav__list">
-                        <li className="sidenav__list-item"><FontAwesomeIcon icon="Home"/> Home</li>
+                        <li className="sidenav__list-item active"><FontAwesomeIcon icon="user-plus"/> Home</li>
                         <li className="sidenav__list-item">Buy Airtime</li>
                         <li className="sidenav__list-item">Send Money</li>
                         <li className="sidenav__list-item">Bills Payment</li>

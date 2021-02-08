@@ -7,17 +7,21 @@ import {
 import './App.scss';
 import './fontawesome';
 
+import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 
 function App() {
   return (
+    <div>
+      
       <Router>
           <Switch>
-              <Route path="/dashboard">
+              <Route path="/">
                 <Dashboard/>
               </Route>
           </Switch>
       </Router>
+      </div>
 
   );
 }
