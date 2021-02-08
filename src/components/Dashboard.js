@@ -3,6 +3,7 @@ import '../components/layouts/Dashboard.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Img1 from '../Assets/img/reanest-screenshot.png';
 import Img2 from '../Assets/img/reanest-screenshot-2.png';
+import profileImg from '../Assets/img/reanest-screenshot-3.png';
 
 class Dashboard extends Component {
     render() {
@@ -21,9 +22,7 @@ class Dashboard extends Component {
                         <FontAwesomeIcon icon="times" />
                     </div>
                     <div className="sidenav__profile">
-                        <img src="" alt="profile-img"/>
-                        <p>Elon Musk A</p>
-                        <p>ID: 9AD34990</p>
+                        <img src={profileImg} alt="profile-img"/>
                     </div>
                     <ul className="sidenav__list">
                         <li className="sidenav__list-item"><FontAwesomeIcon icon="Home"/> Home</li>
