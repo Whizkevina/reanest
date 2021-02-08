@@ -1,11 +1,13 @@
 /* Simple dashboard grid CSS */
 $headerBgColor: #ffffff;
-$sidebarBgColor: #8e66d9;
+$sidebarBgColor: #fff;
+$sidebarProfileBgColor: #8e66d9;
 $mainBgColor:   #f4f2fc;
 $footerBgColor: #648ca6;
 $overviewcardBg: #fff;
 $borderRadius: 35px;
 $padding: 50px;
+$marginTop: 15%;
 
 .header, .footer {
   display: flex;
@@ -140,6 +142,10 @@ $padding: 50px;
   background-color: $sidebarBgColor;
 }
 
+.sidenav__profile {
+  color: white;
+  background-color: $sidebarProfileBgColor;
+}
 
 .sidenav__list {
   padding: 0;
@@ -149,7 +155,8 @@ $padding: 50px;
 
 .sidenav__list-item {
   padding: 20px 20px 20px 40px;
-  color: #ddd;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .sidenav__list-item:hover {
@@ -200,6 +207,14 @@ $padding: 50px;
   padding: $padding;
   border-radius: $borderRadius;
   background-color: $overviewcardBg;
+}
+
+.card__img {
+  margin-top: $marginTop;
+  width: 100%;
+}
+.card__img2 {
+  width: 100%;
 }
 
 .content {

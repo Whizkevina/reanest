@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import '../components/layouts/Dashboard.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Img1 from '../Assets/img/reanest-screenshot.png';
+import Img2 from '../Assets/img/reanest-screenshot-2.png';
 
 class Dashboard extends Component {
     render() {
@@ -18,12 +20,20 @@ class Dashboard extends Component {
 
                         <FontAwesomeIcon icon="times" />
                     </div>
+                    <div className="sidenav__profile">
+                        <img src="" alt="profile-img"/>
+                        <p>Elon Musk A</p>
+                        <p>ID: 9AD34990</p>
+                    </div>
                     <ul className="sidenav__list">
-                        <li className="sidenav__list-item">Item One</li>
-                        <li className="sidenav__list-item">Item Two</li>
-                        <li className="sidenav__list-item">Item Three</li>
-                        <li className="sidenav__list-item">Item Four</li>
-                        <li className="sidenav__list-item">Item Five</li>
+                        <li className="sidenav__list-item"><FontAwesomeIcon icon="Home"/> Home</li>
+                        <li className="sidenav__list-item">Buy Airtime</li>
+                        <li className="sidenav__list-item">Send Money</li>
+                        <li className="sidenav__list-item">Bills Payment</li>
+                        <li className="sidenav__list-item">Free Credit Report</li>
+                        <li className="sidenav__list-item">Complaints</li>
+                        <li className="sidenav__list-item">Contact Us</li>
+                        <li className="sidenav__list-item">Log out</li>
                     </ul>
                 </aside>
                 <main className="main">
@@ -42,6 +52,12 @@ class Dashboard extends Component {
                         </div>
                     </div>
 
+                <div className="card">
+                    <img src={Img1} alt="img" className="card__img"/>
+                </div>
+                <div className="card">
+                    <img src={Img2} alt="Img2" className="card__img2"/>
+                </div>
     
                 </main>
 
